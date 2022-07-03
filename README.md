@@ -5,3 +5,4 @@ This repo is intended to host all the resources used in the implementation of a 
 - A collection of strategies
 - My config files for dry / live or backtesting modes
 - The results of hyperopts
+- The hyperopt-loss files 
