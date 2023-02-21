@@ -6,9 +6,9 @@ import pandas as pd
 from freqtrade.data.metrics import calculate_max_drawdown
 
 # Sortino settings
-TARGET_TRADES = 2000
+TARGET_TRADES = 500
 EXPECTED_MAX_PROFIT = 3.0 # x 100%
-MAX_ACCEPTED_TRADE_DURATION = 240 # minutes
+MAX_ACCEPTED_TRADE_DURATION = 180 # minutes
 MIN_ACCEPTED_TRADE_DURATION = 2 # minutes
 MIN_ACCEPTED_AVERAGE_TRADE_DAILY = 0.5
 MIN_ACCEPTED_AVERAGE_PROFIT = 0.9
